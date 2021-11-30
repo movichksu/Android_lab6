@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_34">34sp</dimen>
+
+    <dimen name="indent_4">4dp</dimen>
+    <dimen name="indent_8">8dp</dimen>
+    <dimen name="indent_10">10dp</dimen>
+    <dimen name="indent_16">16dp</dimen>
+    <dimen name="indent_24">24dp</dimen>
+
+    <dimen name="button_radius">20dp</dimen>
+    <dimen name="button_width">130dp</dimen>
+    <dimen name="text_size_middle">14sp</dimen>
+</resources>

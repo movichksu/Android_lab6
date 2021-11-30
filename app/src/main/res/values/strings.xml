@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android_lab6</string>
+    <string name="error_toast">Please, specify all fields!</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="comment">Comment</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="form">Form</string>
+    <string name="title_user">User: </string>
+    <string name="title_comment">Comment: </string>
+    <string name="total_records">Total records:</string>
+    <string name="found_records">Found records:</string>
+</resources>

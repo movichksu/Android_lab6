@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!--Regular fonts-->
+    <style name="TextAppearance.Regular">
+        <item name="fontFamily">@font/roboto_regular_weight_400</item>
+    </style>
+
+    <style name="TextAppearance.Regular.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+    <style name="TextAppearance.Regular.12.DarkGray">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="TextAppearance.Regular.12.DarkGrayOpacity60">
+        <item name="android:textColor">@color/black_opacity_40</item>
+    </style>
+
+    <style name="TextAppearance.Regular.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="TextAppearance.Regular.14.DarkGray">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="TextAppearance.Regular.14.DarkGrayOpacity60">
+        <item name="android:textColor">@color/black_opacity_40</item>
+    </style>
+
+    <style name="TextAppearance.Regular.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="TextAppearance.Regular.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+
+    <style name="TextAppearance.Regular.16.DarkGray">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="TextAppearance.Regular.16.DarkGrayOpacity60">
+        <item name="android:textColor">@color/black_opacity_40</item>
+    </style>
+
+    <!--Medium fonts-->
+    <style name="TextAppearance.Medium">
+        <item name="fontFamily">@font/roboto_medium_weight_500</item>
+    </style>
+
+    <style name="TextAppearance.Medium.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+    <style name="TextAppearance.Medium.12.Gray_opacity_60">
+        <item name="android:textColor">@color/black_opacity_40</item>
+    </style>
+
+    <style name="TextAppearance.Medium.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="TextAppearance.Medium.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="TextAppearance.Medium.16.DarkGray">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="TextAppearance.Medium.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+
+    <style name="TextAppearance.Medium.18.DarkGray">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="TextAppearance.Medium.24">
+        <item name="android:textSize">@dimen/text_size_24</item>
+    </style>
+
+    <style name="TextAppearance.Medium.24.DarkGray">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+</resources>
