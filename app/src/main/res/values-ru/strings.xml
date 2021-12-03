@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Андроид лабораторная 6</string>
+    <string name="error_toast">Пожалуйста, заполните все поля!</string>
+    <string name="name">имя</string>
+    <string name="surname">фамилия</string>
+    <string name="comment">комментарий</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="form">Форма</string>
+    <string name="title_user">Пользователь: </string>
+    <string name="title_comment">Комментарий: </string>
+    <string name="total_records">Всего записей: </string>
+    <string name="found_records">Найден записей: </string>
+</resources>

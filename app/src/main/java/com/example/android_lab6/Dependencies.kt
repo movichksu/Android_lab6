@@ -1,7 +1,7 @@
 package com.example.android_lab6
 
-import com.example.android_lab6.domain.interactor.PersonRepository
-import com.example.android_lab6.domain.interactor.impl.PersonRepositoryImpl
+import com.example.android_lab6.domain.repository.PersonRepository
+import com.example.android_lab6.domain.repository.impl.PersonRepositoryImpl
 
 object Dependencies {
 

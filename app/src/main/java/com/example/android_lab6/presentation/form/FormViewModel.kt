@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.android_lab6.Dependencies
 import com.example.android_lab6.data.entity.Person
-import com.example.android_lab6.domain.interactor.PersonRepository
+import com.example.android_lab6.domain.repository.PersonRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

@@ -30,8 +30,9 @@ class MainActivity : AppCompatActivity() {
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
         if (result.resultCode == RESULT_OK) {
-            viewModel.onCountTotalPersons()
-            viewModel.onSearchFilteredPersons(searchEditText.text.toString())
+            if (searchEditText.text.isNotBlank()) {
+                viewModel.onSearchFilteredPersons(searchEditText.text.toString())
+            }
         }
     }
 

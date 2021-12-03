@@ -14,10 +14,10 @@ interface PersonsDao {
     fun selectAll(): Flow<List<Person>>
 
     @Query("SELECT * FROM Person WHERE UPPER(name) LIKE '%' || :text || '%' OR UPPER(surname) LIKE '%' || :text || '%'")
-    fun getFilteredPersons(text: String): Flow<List<Person>>
+    fun getFilteredPersons(text: String): List<Person>
 
     @Query("SELECT COUNT(*) FROM Person")
-    fun countAllRows(): Int
+    fun countAllRows(): Flow<Int>
 
     @Query("SELECT COUNT(*) FROM Person WHERE UPPER(name) LIKE '%' || :text || '%' OR UPPER(surname) LIKE '%' || :text || '%'")
     fun countFilteredRows(text: String): Int
